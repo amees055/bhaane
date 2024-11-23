@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-23T16:41:42 IST" name="Suite" finished-at="2024-11-23T16:42:40 IST" duration-ms="58208">
+    <groups>
+    </groups>
+    <test started-at="2024-11-23T16:41:42 IST" name="Test" finished-at="2024-11-23T16:42:40 IST" duration-ms="58208">
+      <class name="TestCases.TC02_SignUP">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.TC02_SignUP@5c86dbc5]" started-at="2024-11-23T16:41:54 IST" name="setup" finished-at="2024-11-23T16:41:59 IST" duration-ms="4684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signup()[pri:0, instance:TestCases.TC02_SignUP@5c86dbc5]" started-at="2024-11-23T16:41:59 IST" name="signup" finished-at="2024-11-23T16:42:04 IST" duration-ms="4583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC02_SignUP@5c86dbc5]" started-at="2024-11-23T16:42:04 IST" name="tearDown" finished-at="2024-11-23T16:42:04 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC02_SignUP -->
+      <class name="TestCases.TC01_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.TC01_LoginTest@2235eaab]" started-at="2024-11-23T16:41:42 IST" name="setup" finished-at="2024-11-23T16:41:48 IST" duration-ms="6342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:TestCases.TC01_LoginTest@2235eaab]" started-at="2024-11-23T16:41:48 IST" name="login" finished-at="2024-11-23T16:41:54 IST" duration-ms="6144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC01_LoginTest@2235eaab]" started-at="2024-11-23T16:41:54 IST" name="tearDown" finished-at="2024-11-23T16:41:54 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC01_LoginTest -->
+      <class name="TestCases.TC03_BuyProduct">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.TC03_BuyProduct@461ad730]" started-at="2024-11-23T16:42:04 IST" name="setup" finished-at="2024-11-23T16:42:09 IST" duration-ms="4672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="product()[pri:0, instance:TestCases.TC03_BuyProduct@461ad730]" started-at="2024-11-23T16:42:09 IST" name="product" finished-at="2024-11-23T16:42:20 IST" duration-ms="11765" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button type="button" class="btn btn-primary btn-sm mr-xs trigger-deliver">...</button> is not clickable at point (824, 47). Other element would receive the click: <div class="col-4 col-md-2 center">...</div>
+  (Session info: MicrosoftEdge=130.0.2849.56)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [59b32559bd318cf87ee8fb6da82008ad, clickElement {id=f.58E01C8666A76D9E8F693F122C23EB06.d.FE2F3AB52801D1D15A4E946CCBFB5CED.e.380}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.56, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52848}, msedge: {msedgedriverVersion: 130.0.2849.99 (024c19ef3a6a..., userDataDir: C:\Users\Seema\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52848/devtoo..., se:cdpVersion: 130.0.2849.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (59b32559bd318cf87ee8fb6da82008ad)] -> xpath: //*[@id="checkout"]/div/div[1]/div[2]/div[2]/div[1]/div/div/div[2]/button[1]]
+Session ID: 59b32559bd318cf87ee8fb6da82008ad]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="btn btn-primary btn-sm mr-xs trigger-deliver">...</button> is not clickable at point (824, 47). Other element would receive the click: <div class="col-4 col-md-2 center">...</div>
+  (Session info: MicrosoftEdge=130.0.2849.56)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [59b32559bd318cf87ee8fb6da82008ad, clickElement {id=f.58E01C8666A76D9E8F693F122C23EB06.d.FE2F3AB52801D1D15A4E946CCBFB5CED.e.380}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.56, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52848}, msedge: {msedgedriverVersion: 130.0.2849.99 (024c19ef3a6a..., userDataDir: C:\Users\Seema\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52848/devtoo..., se:cdpVersion: 130.0.2849.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (59b32559bd318cf87ee8fb6da82008ad)] -> xpath: //*[@id="checkout"]/div/div[1]/div[2]/div[2]/div[1]/div/div/div[2]/button[1]]
+Session ID: 59b32559bd318cf87ee8fb6da82008ad
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at TestCases.TC03_BuyProduct.product(TC03_BuyProduct.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- product -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC03_BuyProduct@461ad730]" started-at="2024-11-23T16:42:20 IST" name="tearDown" finished-at="2024-11-23T16:42:21 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC03_BuyProduct -->
+      <class name="TestCases.TC04_footer">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.TC04_footer@4ee203eb]" started-at="2024-11-23T16:42:21 IST" name="setup" finished-at="2024-11-23T16:42:27 IST" duration-ms="6168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="footerscroller()[pri:0, instance:TestCases.TC04_footer@4ee203eb]" started-at="2024-11-23T16:42:27 IST" name="footerscroller" finished-at="2024-11-23T16:42:40 IST" duration-ms="12903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerscroller -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC04_footer@4ee203eb]" started-at="2024-11-23T16:42:40 IST" name="tearDown" finished-at="2024-11-23T16:42:40 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC04_footer -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
